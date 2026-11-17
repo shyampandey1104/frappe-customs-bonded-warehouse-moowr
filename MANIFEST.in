@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include customs_moowr *.css
+recursive-include customs_moowr *.csv
+recursive-include customs_moowr *.html
+recursive-include customs_moowr *.ico
+recursive-include customs_moowr *.js
+recursive-include customs_moowr *.json
+recursive-include customs_moowr *.md
+recursive-include customs_moowr *.png
+recursive-include customs_moowr *.py
+recursive-include customs_moowr *.svg
+recursive-include customs_moowr *.txt
+recursive-exclude customs_moowr *.pyc
